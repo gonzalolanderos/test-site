@@ -33,6 +33,7 @@
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
+    font-weight: bold;
   }
 
   .link {
@@ -58,6 +59,7 @@
   .home-link :active {
       text-decoration: none;
       color: #2f2f2f;
+      font-weight: bold;
   }
 
 
@@ -89,25 +91,58 @@
   }
 
   .content {
-      background: white;
+      background: #f1f1f1;
+  
   }
 
-  .about {
+  #about {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 3rem;
+    background: #f1f1f1;
+
+  }
+
+  #videos {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 3rem;
+
+  }
+  
+  /* .video-block {
+    padding-bottom: 2rem;
+    border-bottom: solid #b4b4b4 1px;
+  } */
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    overflow: hidden;
+  }
+  .recent-video {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .video-thumb {
+    /* text-align: center; */
+    padding-left: 1.5rem;
+
+  }
+
+  #contact {
     width: 50%;
     margin: auto;
     padding-bottom: 3rem;
   }
 
-  .videos {
+  #error {
     width: 50%;
     margin: auto;
     padding-bottom: 3rem;
-  }
-
-  .contact {
-    width: 50%;
-    margin: auto;
-    padding-bottom: 3rem;
+    background: #f1f1f1;
+    height: 80vh;
   }
 
   .contact-link {
@@ -130,7 +165,7 @@
       margin: auto;
       background: #2f2f2f;      
       padding-top: 2%;
-      padding-bottom: 2%;
+      padding-bottom: 3%;
       padding-left: 0;
       padding-right: 0;
 
@@ -231,7 +266,6 @@
     .landing {
         display: flex;
         justify-content: center;
-        /* max-height: 1000px; */
         flex-direction: column;
         width: 100%;
     }
@@ -248,23 +282,30 @@
         margin: auto;
     }
 
-    .about {
+    #about {
         width: 100%;
         margin: auto;
       }
 
-    .videos {
-    width: 50%;
+    #videos {
+    width: 100%;
     margin: auto;
     overflow: hidden; /*breaks for some reason without it*/
     }
 
-    .contact {
+    .video-grid {
+      display: block;
+    }
+
+    #contact {
     width: 100%;
     margin: auto;
     }
 
-    
+    #error {
+      width: 100%;
+      margin: auto;
+    }
 
     .main-video {
         min-width: 100%;
@@ -272,6 +313,11 @@
         align-items: center;
     }
 
+    .video-block {
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+      border-bottom: solid #b4b4b4 1px;
+    }
     
     .content {
         display: flex;
