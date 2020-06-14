@@ -1,2 +1,2 @@
 # test-site
-Test Website with animations.
+Test Website for helping immigrants (first iteration)
