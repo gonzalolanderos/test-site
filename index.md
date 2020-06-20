@@ -40,7 +40,7 @@
             mozallowfullscreen
             allowfullscreen
           >
-            <source src="./videos/rod-test.mp4" type="video/mp4" />
+            <source src="./videos/test.mp4" type="video/mp4" />
           </video>  
         </div>
       </div>
@@ -65,7 +65,7 @@
               mozallowfullscreen
               allowfullscreen
             >
-                <source src="videos/rod-test-en.mp4" type="video/mp4" />
+                <source src="videos/test-en.mp4" type="video/mp4" />
               </video>
             <div class="video-thumb">
               <h3>What To Do At An Airport</h3>
@@ -82,7 +82,7 @@
               mozallowfullscreen
               allowfullscreen
             >
-                <source src="videos/rod-test-en.mp4" type="video/mp4" />
+                <source src="videos/test.mp4" type="video/mp4" />
               </video>
             <div class="video-thumb">
               <h3>Getting Your SSN</h3>
@@ -99,7 +99,7 @@
               mozallowfullscreen
               allowfullscreen
             >
-                <source src="videos/rod-test-en.mp4" type="video/mp4" />
+                <source src="videos/test-en.mp4" type="video/mp4" />
               </video>
             <div class="video-thumb">
               <h3>How To Avoid Pyramid Schemes</h3>
